@@ -1,0 +1,28 @@
+{
+  "name": "femto-bookmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "faunadb": "^2.9.3"
+  },
+   "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "standard": "*"
+  },
+  "scripts": {
+    "test": "standard",
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpost/femto-bookmarks.git"
+  },
+  "author": "hpost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hpost/femto-bookmarks/issues"
+  },
+  "homepage": "https://github.com/hpost/femto-bookmarks#readme"
+}
