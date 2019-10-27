@@ -18,7 +18,7 @@
       {% if link.url and link.pageTitle %}
         <li>
           <h2><a href="{{ link.url }}">{{ link.pageTitle }}</a></h2>
-          Saved on {{ link.time | date: "%b %d, %Y" }}
+          {{ link.time | date: "%b %d, %Y" }}
           {% if link.description != "" %}
             <p>{{ link.description }}</p>
           {% endif %}

@@ -1,30 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
+
 * {
     box-sizing: border-box;
 }
-html {
-    font-size: 18px;
-    line-height: 1.4em;
-}
+
 body {
-    background-color: #FDEDF4 ;
+    background-color: #FFF ;
     min-height: 80vh;
     padding: 2rem 0;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.3em;
 }
+
 a {
     color: #309CD1;
     transition: color .3s ease-out;
 }
+
 a:hover {
     color: #3ABEFF;
 }
+
 h1 {
-    font-size: 3rem;
-    line-height: 1.3em;
+    font-size: 2.5rem;
     margin: .75rem 0;
 }
+
 h2 {
     line-height: 1.4em;
 }
+
 ul, .intro {
     list-style: none;
     padding: 0;
@@ -32,10 +38,12 @@ ul, .intro {
     max-width: 650px;
     margin: auto;
 }
+
 li, .intro {
     display: block;
     margin-bottom: 1rem;
-    background-color: white;
-    box-shadow: 0 0 2px #999;
+    background-color: #FFF;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1.5rem #E4E4E4;
     padding: 1rem 1.5rem;
 }
