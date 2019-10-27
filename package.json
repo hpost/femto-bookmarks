@@ -4,16 +4,21 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "faunadb": "^2.9.3"
+    "cheerio": "^1.0.0-rc.3",
+    "encoding": "^0.1.12",
+    "faunadb": "^2.9.3",
+    "netlify-lambda": "^1.6.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   },
-   "devDependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
     "standard": "*"
   },
   "scripts": {
     "test": "standard",
-    "build": "npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy --serve"
+    "build": "npx netlify-lambda build lambda --config ./webpack.functions.js && npx @11ty/eleventy",
+    "serve": "npx netlify-lambda build lambda --config ./webpack.functions.js && npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",

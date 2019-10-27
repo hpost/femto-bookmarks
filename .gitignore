@@ -1,3 +1,7 @@
+# Build output
+app
+functions
+
 # Local Netlify folder
 .netlify
 
